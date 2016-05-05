@@ -12,3 +12,7 @@ If you're interested, you may wish to create a github account (free + bonuses fo
 ## How to use the testing script
 
 Place the full contents of this repository in the same directory as your project code (in a single file named `program.py`), and execute `proj3_test_code.py`. The script will print out each test as it runs, and an indication of whether each individual test succeeded or not (as well as the overall count of tests for each function which succeeded).
+
+## Contributing extra test cases
+
+I would be very happy to incorporate extra test cases into the minimal set I put together. You can do this by emailing them to me, or if you want to embrace github fully, you can [submit a pull request](https://help.github.com/articles/creating-a-pull-request/).
