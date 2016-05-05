@@ -116,7 +116,7 @@ def test_equivalent(a,b,funct_name):
             
     # for everything else, we use the built-in notion of equality
     else:
-        return a == b
+        return type(a) == type(b) and a == b
 
 #  
 # end test_equivalent()   

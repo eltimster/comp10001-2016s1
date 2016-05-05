@@ -44,8 +44,11 @@ test_cases = {
     [
 #  bid(hand, player_no, phase_no, deck_top)
         ("""submission.bid(('AS', 'KS', 'QS', 'JS'), 1, 4, 'JS')""", 1),
+        ("""submission.bid(('AS', 'KS', 'QS', 'JS', '0S', '9S', '8S', '7S'), 3, 8, '2S')""", 2),
         ("""submission.bid(('AS', 'KS', 'QS', 'JS', '0S', '9S', '8S', '7S', '6S', '5S'), 0, 10, '2S')""", 0),
         ("""submission.bid(('AS', 'KS', 'QS', 'JS', '0S', '9S', '8S', '7S', '6S', '5S'), 3, 10, '2S', True)""", 0),
+        ("""submission.bid(('AS', 'KS', 'QS', 'JS', '0S', '9S', '8S', '7S'), 0, 12, '3S')""", 2),
+        ("""submission.bid(('AS', 'KS', 'QS', 'JS'), 0, 16, '3S')""", 1),
     ]        
 
 }
