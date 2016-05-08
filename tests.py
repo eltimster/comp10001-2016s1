@@ -35,9 +35,9 @@ test_cases = {
     "play":
     [
 #        curr_trick, hand, prev_tricks, player_no, deck_top
-        ("""submission.play((), ('KD',), (), 0, 'AS')""", 'KD'),
-        ("""submission.play(('AD',), ('KD', '2H', '3C'), (), 1, 'AS')""", 'KD'),
-        ("""submission.play(('AD', 'KS'), ('2D', '2H', '3C'), (), 2, 'AS')""", '2D'),
+        ("""submission.play((), ('KD',), (), 0, 'AS', (1, 0, 0, 0))""", 'KD'),
+        ("""submission.play(('AD',), ('KD', '2H', '3C'), (), 1, 'AS', (2, 1, 1, 1))""", 'KD'),
+        ("""submission.play(('AD', 'KS'), ('2D', '2H', '3C'), (), 2, 'AS', (1, 2, 0, 0))""", '2D'),
     ],
     
     "bid":
